@@ -32,7 +32,7 @@ namespace Inventory.Services
             item.Count--;
             if (item.Count <= 0) {
                 Repository.RemoveAt(index);
-                InventoryManager.InventoryUi.Show();
+                InventoryManager.UiInventory.Show();
             }
         }
     }

@@ -6,6 +6,7 @@ using Inventory.Item.Data.Abstracts;
 using Inventory.Repository;
 using Inventory.Services;
 using Inventory.Services.Abstracts;
+using Inventory.UI;
 using UI;
 using UI.Abstracts;
 using UnityEngine;
@@ -20,12 +21,12 @@ namespace Inventory
     public class InventoryManager : MenuPage, IInventoryManager
     {
         public IInventoryRepository Repository => _repository;
-        public InventoryUI InventoryUi => inventoryUi;
+        public UiInventory UiInventory => uiInventory;
 
         private readonly Dictionary<Type, IItemService> _itemServices = new Dictionary<Type, IItemService>();
 
         [SerializeField] private GameMenuManager _gameMenuManager;
-        [SerializeField] private InventoryUI inventoryUi;
+        [SerializeField] private UiInventory uiInventory;
         [SerializeField] private List<Holder> holders = new List<Holder>();
         [SerializeField] private InventoryRepository _repository = new InventoryRepository();
 
@@ -43,7 +44,7 @@ namespace Inventory
                 }
             }
 
-            inventoryUi.Init(this);
+            uiInventory.Init(this);
         }
     
         public bool HasEquipWeapon(WeaponType type)
@@ -125,7 +126,7 @@ namespace Inventory
         private void OnShowEvent(bool value)
         {
             if (value) {
-                inventoryUi.Show();
+                uiInventory.Show();
             }
         }
 
@@ -141,19 +142,19 @@ namespace Inventory
 
         public override void Show()
         {
-            inventoryUi.ShowGameObject(true);
+            uiInventory.ShowGameObject(true);
         }
 
         public override void Hide()
         {
-            inventoryUi.ShowGameObject(false);
+            uiInventory.ShowGameObject(false);
         }
     }
 
     public interface IInventoryManager
     {
         IInventoryRepository Repository { get; }
-        InventoryUI InventoryUi { get; }
+        UiInventory UiInventory { get; }
 
         bool HasEquipWeapon(WeaponType type);
         InventoryItem GetEquipWeapon(WeaponType type);

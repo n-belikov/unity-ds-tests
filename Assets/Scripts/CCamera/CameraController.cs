@@ -33,16 +33,6 @@ namespace CCamera
 
         private CameraPosition _cameraPosition;
 
-        public void SetLockAt(Transform target)
-        {
-            lockAtTarget = target;
-        }
-
-        public void SetMoveAt(Transform target)
-        {
-            moveAtTarget = target;
-        }
-
 
         public void ResetValues()
         {

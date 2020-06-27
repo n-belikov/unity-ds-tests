@@ -19,7 +19,7 @@ namespace Managers
         [SerializeField] private CharacterMovement movement;
         [SerializeField] private CharacterAnimator animator;
         [SerializeField] private PlayerManager playerManager;
-        
+
         [Dependency] private IInputHandler InputHandler { get; set; }
 
         public UnityEvent OnDrawEvent => _onDrawEvent;
@@ -45,8 +45,8 @@ namespace Managers
             movement.SetLookAtCamera(InputHandler.Aiming && !playerManager.IsRoll && _canAttack);
 
             // TODO: Добавить возможность в прыжке
-            
-            if (InputHandler.Aiming 
+
+            if (InputHandler.Aiming
                 && movement.OnGrounded
                 && _canAttack) {
                 playerManager.Camera.SetCameraPosition(aimingCameraPosition);
@@ -75,13 +75,13 @@ namespace Managers
                 );
 
                 // if (!movement.OnGrounded) {
-                    movement.SetMovementSpeed(0f);
-                    movement.SetMovementAxis(
-                        0,
-                        0
-                    );
+                movement.SetMovementSpeed(0f);
+                movement.SetMovementAxis(
+                    0,
+                    0
+                );
                 // } else {
-                    animator.ApplyRootMotionValues(movementMultiplier);
+                animator.ApplyRootMotionValues(movementMultiplier);
                 // }
             }
             else {
@@ -96,7 +96,7 @@ namespace Managers
                     if (_isDraw) {
                         OnUnDrawArrowEvent();
                     }
-                    
+
                     _inState = false;
                 }
 
@@ -111,6 +111,15 @@ namespace Managers
             animator.events.onDrawArrow.AddListener(OnDrawArrowEvent);
             animator.events.onUnDrawArrow.AddListener(OnUnDrawArrowEvent);
         }
+
+        private void OnDisable()
+        {
+            animator.events.onBowShooting.RemoveListener(OnBowShootingEvent);
+            animator.events.onDrawArrow.RemoveListener(OnDrawArrowEvent);
+            animator.events.onUnDrawArrow.RemoveListener(OnUnDrawArrowEvent);
+        }
+
+        #region Events
 
         private void OnBowShootingEvent()
         {
@@ -130,12 +139,7 @@ namespace Managers
             _onUnDrawEvent?.Invoke();
         }
 
-        private void OnDisable()
-        {
-            animator.events.onBowShooting.RemoveListener(OnBowShootingEvent);
-            animator.events.onDrawArrow.RemoveListener(OnDrawArrowEvent);
-            animator.events.onUnDrawArrow.RemoveListener(OnUnDrawArrowEvent);
-        }
+        #endregion
 
         private Vector3 GetLockAt()
         {

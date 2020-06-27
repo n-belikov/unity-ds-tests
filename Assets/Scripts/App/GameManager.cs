@@ -2,6 +2,7 @@
 using CryoDI;
 using Inputs;
 using Inventory;
+using Quest;
 using Stats.Abstracts;
 using Stats.Player;
 using UnityEngine;
@@ -16,6 +17,7 @@ namespace App
         [SerializeField] private PlayerStatsManager _playerStatsManager;
         [SerializeField] private InputHandler _inputHandler;
         [SerializeField] private InventoryManager _inventoryManager;
+        [SerializeField] private QuestManager _questManager;
 
         protected override void SetupContainer(CryoContainer container)
         {
@@ -25,6 +27,7 @@ namespace App
             container.RegisterInstance<IInputHandler>(_inputHandler);
             container.RegisterInstance<IPlayerStats>(_playerStatsManager);
             container.RegisterInstance<IInventoryManager>(_inventoryManager);
+            container.RegisterInstance<IQuestManager>(_questManager);
         }
     }
 

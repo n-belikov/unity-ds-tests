@@ -88,10 +88,10 @@ namespace Locomotion
             animator.SetBool(IsAiming, value);
         }
 
-        public void FireAnimation(string name, bool value, int? LayerIndex = null)
+        public void FireAnimation(string name, bool value, int? layerIndex = null)
         {
-            if (LayerIndex != null) {
-                animator.CrossFadeInFixedTime(name, 0.1f, (int) LayerIndex);
+            if (layerIndex != null) {
+                animator.CrossFadeInFixedTime(name, 0.1f, (int) layerIndex);
             }
             else {
                 animator.CrossFadeInFixedTime(name, 0.1f);

@@ -1,8 +1,5 @@
-﻿using System.Collections.Generic;
-using Inventory.Item.Data;
+﻿using Inventory.Item.Data;
 using Inventory.Item.Data.Abstracts;
-using Inventory.Item.Modificators.Abstracts;
-using Inventory.Item.Modificators.Data;
 using UnityEngine;
 
 namespace Inventory

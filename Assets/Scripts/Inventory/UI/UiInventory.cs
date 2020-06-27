@@ -1,10 +1,9 @@
 ﻿using Inventory.Repository;
-using Inventory.UI;
 using UnityEngine;
 
-namespace Inventory
+namespace Inventory.UI
 {
-    public class InventoryUI : MonoBehaviour
+    public class UiInventory : MonoBehaviour
     {
         public GameObject page;
         public Transform content;
