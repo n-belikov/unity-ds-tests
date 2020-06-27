@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1213bef1-56f1-4b95-812a-23e15329cc8b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Leveling/Torches/TorchCollection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A278EBD4-4AB0-472B-B8E6-38263E06CD61/49/34426cca/UnityAction`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/CustomIK/FootIK.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/SwordController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Scriptables/SwordItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/CustomIK/FootIKController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/TestEnemyHumanoid.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Scriptables/BowItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/CustomIK/FabricIKSolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UI/ItemDropHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/UI/InfoBlock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Properties/BaseEnemyProperties.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/ParticleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D195DA47-F292-4AA6-AB1F-FC82F421F850/9d/32ba8313/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/TestEnemy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Scriptables/ScriptableItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Scriptables/ArrowItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Interfaces/IWeaponItemInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/BlinkController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Interfaces/ICatchShootingArrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StoreAssets/MeleeWeaponTrail/Scripts/MeleeWeaponTrail.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/WeaponController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Interfaces/ICatchDamageInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Shields/ShieldTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Shields/Shield.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A278EBD4-4AB0-472B-B8E6-38263E06CD61/9c/313d8ee5/UnityEventBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Shields/IShieldCollisionInterface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ArrowLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A278EBD4-4AB0-472B-B8E6-38263E06CD61/8d/56f5a8a7/UnityEvent.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Arrow/DefaultArrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Arrow/Arrow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Weapon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Standard Assets/Cameras/Scripts/FreeLookCam.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DrawArrowLine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Sword.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CustomAnimationEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TestScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Scriptables/WeaponItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Leveling/Torches/Torch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Test.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraShake.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Bow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/BaseEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement/BowController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/CustomIK/FootIK.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/CustomIK/FootIKController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/CustomIK/FootIKController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/CustomIK/FootIK.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/SwordController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/WeaponController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/BowController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/ParticleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/BlinkController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Interfaces/ICatchShootingArrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Interfaces/ICatchDamageInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Arrow/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Shields/ShieldTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Arrow/DefaultArrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Shields/Shield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Interfaces/IWeaponItemInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Shields/IShieldCollisionInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Weapon/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Scriptables/ArrowItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Scriptables/SwordItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Interfaces/ICatchShootingArrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Shields/ShieldTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Arrow/Arrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Shields/IShieldCollisionInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Weapon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Interfaces/ICatchDamageInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/ParticleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/TestEnemyHumanoid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/BaseEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Scriptables/ScriptableItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Leveling/Torches/Torch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/BowController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CustomAnimationEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Interfaces/IWeaponItemInterface.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Shields/Shield.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Bow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Arrow/DefaultArrow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/TestEnemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/Weapon/Sword.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/WeaponController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Inventory/InventoryController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/CustomIK/FabricIKSolver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TestScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/SwordController.cs" />
+        <option value="$PROJECT_DIR$/Assets/DrawArrowLine.cs" />
+        <option value="$PROJECT_DIR$/Assets/ArrowLine.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WALT2mBIIKHRMlNelVCn8ytpII" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+    <option name="showServicesTree" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1213bef1-56f1-4b95-812a-23e15329cc8b" name="Default Changelist" comment="" />
+      <created>1578587456829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578587456829</updated>
+      <workItem from="1578587459699" duration="144000" />
+      <workItem from="1578587949846" duration="38000" />
+      <workItem from="1578673504129" duration="17753000" />
+      <workItem from="1578731729694" duration="49000" />
+      <workItem from="1578731804077" duration="2223000" />
+      <workItem from="1578738517437" duration="15797000" />
+      <workItem from="1579194571872" duration="1490000" />
+      <workItem from="1579626543179" duration="2082000" />
+      <workItem from="1579706606330" duration="1546000" />
+      <workItem from="1579802220044" duration="439000" />
+      <workItem from="1579881053653" duration="7464000" />
+      <workItem from="1579968198722" duration="4331000" />
+      <workItem from="1579972575173" duration="1731000" />
+      <workItem from="1579974788631" duration="137000" />
+      <workItem from="1579975589512" duration="291000" />
+      <workItem from="1580135644601" duration="7548000" />
+      <workItem from="1580146748674" duration="793000" />
+      <workItem from="1580318712665" duration="755000" />
+      <workItem from="1580573906164" duration="223000" />
+      <workItem from="1580831778055" duration="213000" />
+      <workItem from="1580832019006" duration="4588000" />
+      <workItem from="1580918337318" duration="1863000" />
+      <workItem from="1580920895575" duration="300000" />
+      <workItem from="1580995813076" duration="8602000" />
+      <workItem from="1581006257037" duration="6000" />
+      <workItem from="1581006281228" duration="4547000" />
+      <workItem from="1581088574231" duration="3188000" />
+      <workItem from="1581176101082" duration="5655000" />
+      <workItem from="1581182991680" duration="1972000" />
+      <workItem from="1581263467828" duration="5000" />
+      <workItem from="1581265021212" duration="492000" />
+      <workItem from="1581703071341" duration="8000" />
+      <workItem from="1581703095035" duration="1184000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581002272202">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581002272202" />
+    <state x="499" y="142" key="RiderGenerateDialog" timestamp="1579883683434">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="142" key="RiderGenerateDialog/0.0.1536.834@0.0.1536.834" timestamp="1579883683434" />
+    <state x="277" y="61" key="SettingsEditor" timestamp="1581089225938">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="61" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581089225938" />
+    <state x="439" y="15" width="657" height="804" key="find.popup" timestamp="1581006394806">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="439" y="15" width="657" height="804" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1581006394806" />
+    <state x="549" y="19" width="822" height="1013" key="find.popup/1920.-444.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1579974082159" />
+    <state x="410" y="144" width="700" height="530" key="recent.locations.popup" timestamp="1578587511383">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="410" y="144" width="700" height="530" key="recent.locations.popup/0.0.1536.834@0.0.1536.834" timestamp="1578587511383" />
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup" timestamp="1581090179382">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" width="672" height="677" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1581090179382" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1581009425027">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1581009425027" />
+    <state x="539" y="195" width="840" height="854" key="search.everywhere.popup/1920.-444.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1579974131401" />
+  </component>
+</project>

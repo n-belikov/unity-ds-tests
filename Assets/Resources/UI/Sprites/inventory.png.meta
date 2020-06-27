@@ -1,0 +1,2070 @@
+fileFormatVersion: 2
+guid: f7bd7a4e4e0203e40b4cd57f0a2fd363
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4863336276314997047
+    second: inventory_0
+  - first:
+      213: -3860515135949180240
+    second: inventory_1
+  - first:
+      213: -6734734834790175173
+    second: inventory_2
+  - first:
+      213: -6618134905481563395
+    second: inventory_3
+  - first:
+      213: -3913403896141990040
+    second: inventory_4
+  - first:
+      213: -1393458340566893849
+    second: inventory_5
+  - first:
+      213: -3571245019227250870
+    second: inventory_6
+  - first:
+      213: 2451324180514708912
+    second: inventory_7
+  - first:
+      213: -5990679910767757089
+    second: inventory_8
+  - first:
+      213: 5821263585957794077
+    second: inventory_9
+  - first:
+      213: -5948282585747812326
+    second: inventory_10
+  - first:
+      213: 276814819640733396
+    second: inventory_11
+  - first:
+      213: -267251719090833575
+    second: inventory_12
+  - first:
+      213: 184947299614187853
+    second: inventory_13
+  - first:
+      213: 6552564986207930973
+    second: inventory_14
+  - first:
+      213: -8362602881052143106
+    second: inventory_15
+  - first:
+      213: -3202966353781376089
+    second: inventory_16
+  - first:
+      213: 5717860663560468995
+    second: inventory_17
+  - first:
+      213: 8152852456837299576
+    second: inventory_18
+  - first:
+      213: 9214527340654990288
+    second: inventory_19
+  - first:
+      213: -3998773593875168313
+    second: inventory_20
+  - first:
+      213: 2666837487265513188
+    second: inventory_21
+  - first:
+      213: -1160798593736239838
+    second: inventory_22
+  - first:
+      213: -2761068690825735088
+    second: inventory_23
+  - first:
+      213: -7162530431733920896
+    second: inventory_24
+  - first:
+      213: 2173216817343420227
+    second: inventory_25
+  - first:
+      213: 731597103121526280
+    second: inventory_26
+  - first:
+      213: -1164294437156975824
+    second: inventory_27
+  - first:
+      213: 8459678078700780562
+    second: inventory_28
+  - first:
+      213: -4818608432900340472
+    second: inventory_29
+  - first:
+      213: -6992208419261314058
+    second: inventory_30
+  - first:
+      213: 2910227987943114279
+    second: inventory_31
+  - first:
+      213: -7122326040208954192
+    second: inventory_32
+  - first:
+      213: -9063430530855137994
+    second: inventory_33
+  - first:
+      213: 736822331659017025
+    second: inventory_34
+  - first:
+      213: 5043099834948712012
+    second: inventory_35
+  - first:
+      213: -5838773367292261525
+    second: inventory_36
+  - first:
+      213: 6125006079264960131
+    second: inventory_37
+  - first:
+      213: 1219843128188549411
+    second: inventory_38
+  - first:
+      213: -2198453069390774919
+    second: inventory_39
+  - first:
+      213: 2458966455424779197
+    second: inventory_40
+  - first:
+      213: -4749398417678946963
+    second: inventory_41
+  - first:
+      213: 7458666800755001395
+    second: inventory_42
+  - first:
+      213: -62569751805727411
+    second: inventory_43
+  - first:
+      213: -648204009307387305
+    second: inventory_44
+  - first:
+      213: 1759683543457858397
+    second: inventory_45
+  - first:
+      213: -3163316677494931900
+    second: inventory_46
+  - first:
+      213: 4484477347745996296
+    second: inventory_47
+  - first:
+      213: -2473942222149849933
+    second: inventory_48
+  - first:
+      213: 1235898498269488833
+    second: inventory_49
+  - first:
+      213: 1751257299831718561
+    second: inventory_50
+  - first:
+      213: 826802726867538598
+    second: inventory_51
+  - first:
+      213: 3391030666766452025
+    second: inventory_52
+  - first:
+      213: -3174690264753156644
+    second: inventory_53
+  - first:
+      213: 3497836940735398540
+    second: inventory_54
+  - first:
+      213: 2622778036293234656
+    second: inventory_55
+  - first:
+      213: -4819911480817186547
+    second: inventory_56
+  - first:
+      213: -3315072773533089326
+    second: inventory_57
+  - first:
+      213: -4999441730890880146
+    second: inventory_58
+  - first:
+      213: -1409668483965718984
+    second: inventory_59
+  - first:
+      213: -1178457971114827250
+    second: inventory_60
+  - first:
+      213: -6307421424025387695
+    second: inventory_61
+  - first:
+      213: -2129845667975575123
+    second: inventory_62
+  - first:
+      213: 1580499605822505123
+    second: inventory_63
+  - first:
+      213: 7650069326571472956
+    second: inventory_64
+  - first:
+      213: 7831498439450845205
+    second: inventory_65
+  - first:
+      213: -6788554966025005187
+    second: inventory_66
+  - first:
+      213: 2572889053078182984
+    second: inventory_67
+  - first:
+      213: 5879279535732310010
+    second: inventory_68
+  - first:
+      213: -2192330191748353261
+    second: inventory_69
+  - first:
+      213: 8823905322534023539
+    second: inventory_70
+  - first:
+      213: 4374976236968034799
+    second: inventory_71
+  - first:
+      213: -2621249964889994157
+    second: inventory_72
+  - first:
+      213: 7661463512783740190
+    second: inventory_73
+  - first:
+      213: 6889091355565572608
+    second: inventory_74
+  - first:
+      213: 5929248448697078527
+    second: inventory_75
+  - first:
+      213: -7691609332707177552
+    second: inventory_76
+  - first:
+      213: 8315349644677883125
+    second: inventory_77
+  - first:
+      213: -6430287486384716572
+    second: inventory_78
+  - first:
+      213: 5628686017422872107
+    second: inventory_79
+  - first:
+      213: -7852077184187062210
+    second: inventory_80
+  - first:
+      213: -8154288866517953204
+    second: inventory_81
+  - first:
+      213: 5451254313823711432
+    second: inventory_82
+  - first:
+      213: -3605258381377682790
+    second: inventory_83
+  - first:
+      213: 7374215350530501251
+    second: inventory_84
+  - first:
+      213: 8334951684969567993
+    second: inventory_85
+  - first:
+      213: -7966026707692449939
+    second: inventory_86
+  - first:
+      213: -623477057579632687
+    second: inventory_87
+  - first:
+      213: 8734979194116806880
+    second: inventory_88
+  - first:
+      213: 7071766851049424869
+    second: inventory_89
+  - first:
+      213: 554552044991240966
+    second: inventory_90
+  - first:
+      213: 1812000243995697
+    second: inventory_91
+  - first:
+      213: -1066558830899002446
+    second: inventory_92
+  - first:
+      213: -1626725221750319019
+    second: inventory_93
+  - first:
+      213: 7657035947546696126
+    second: inventory_94
+  - first:
+      213: -2496112303732826219
+    second: inventory_95
+  - first:
+      213: -780314072867135806
+    second: inventory_96
+  - first:
+      213: -1137503685716055977
+    second: inventory_97
+  - first:
+      213: 7973605518191144489
+    second: inventory_98
+  - first:
+      213: 1847600613577327043
+    second: inventory_99
+  - first:
+      213: -3929360151551477450
+    second: inventory_4
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: inventory_1
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 448
+        width: 211
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b2fabf00f1bc6ac0800000000000000
+      internalID: -3860515135949180240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 504
+        width: 114
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ee1e3995a6982a0800000000000000
+      internalID: -6734734834790175173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_3
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 384
+        width: 230
+        height: 180
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2782b2e59a724a0800000000000000
+      internalID: -6618134905481563395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 408
+        width: 83
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea7439a50179ace0800000000000000
+      internalID: -1393458340566893849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_6
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 448
+        width: 114
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4f93178393607ec0800000000000000
+      internalID: -3571245019227250870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_7
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 408
+        width: 343
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd97e0ca5ad40220800000000000000
+      internalID: 2451324180514708912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 304
+        width: 425
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd87e937c54dcdca0800000000000000
+      internalID: -5990679910767757089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 304
+        width: 178
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d115ee8936849c050800000000000000
+      internalID: 5821263585957794077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_10
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 304
+        width: 138
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a101cdce084737da0800000000000000
+      internalID: -5948282585747812326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_11
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 304
+        width: 66
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4deef31ac9177d300800000000000000
+      internalID: 276814819640733396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_14
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 238
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5a069253236fea50800000000000000
+      internalID: 6552564986207930973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_15
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 238
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef19a359cf012fb80800000000000000
+      internalID: -8362602881052143106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 238
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab355f3217cc83d0800000000000000
+      internalID: -3202966353781376089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_17
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 201
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a73be9afbe95f40800000000000000
+      internalID: 5717860663560468995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_12
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 201
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9577af93af78a4cf0800000000000000
+      internalID: -267251719090833575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_18
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 201
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87d35f32d10c42170800000000000000
+      internalID: 8152852456837299576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_19
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 162
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d39dd0bbc390ef70800000000000000
+      internalID: 9214527340654990288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_20
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 162
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3cbdf4a908188c0800000000000000
+      internalID: -3998773593875168313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_21
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 162
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eef72ea092820520800000000000000
+      internalID: 2666837487265513188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_22
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 238
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225149444d304efe0800000000000000
+      internalID: -1160798593736239838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_23
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 238
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05411ea87a6bea9d0800000000000000
+      internalID: -2761068690825735088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_24
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 238
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b03936584999c90800000000000000
+      internalID: -7162530431733920896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_25
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 201
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 347d8a16e21d82e10800000000000000
+      internalID: 2173216817343420227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_26
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 201
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e634a60b7272a00800000000000000
+      internalID: 731597103121526280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_27
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 201
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b8b4bc06897dfe0800000000000000
+      internalID: -1164294437156975824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_28
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 162
+        width: 38
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c7e1b2460d66570800000000000000
+      internalID: 8459678078700780562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_29
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 162
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805064d092dd02db0800000000000000
+      internalID: -4818608432900340472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_30
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 163
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 5, y: 5, z: 5, w: 5}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb0f6e2d7fa6fe90800000000000000
+      internalID: -6992208419261314058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_13
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 43
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 8, y: 6, z: 7, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41ebafc690119200800000000000000
+      internalID: 184947299614187853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_31
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 93
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 7, y: 8, z: 8, w: 7}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726cfbc9fe4336820800000000000000
+      internalID: 2910227987943114279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 449
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce39fa7c65f18cb0800000000000000
+      internalID: -4863336276314997047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 433
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639f234c2cb1879c0800000000000000
+      internalID: -3929360151551477450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 417
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bca4deb33a682d90800000000000000
+      internalID: -7122326040208954192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 449
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d03f9c3f9383280800000000000000
+      internalID: -9063430530855137994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 433
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b5c1db108b93a00800000000000000
+      internalID: 736822331659017025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 433
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46f2f49490bcf540800000000000000
+      internalID: 5043099834948712012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_36
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 449
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6b888ebe8288fea0800000000000000
+      internalID: -5838773367292261525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: inventory_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 417
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e22b1d394600550800000000000000
+      internalID: 6125006079264960131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: 128, y: 18}
+      - {x: -426, y: 18}
+      - {x: -426, y: -278}
+      - {x: 262, y: -278}
+      - {x: 266, y: -274}
+      - {x: 266, y: 14}
+    - - {x: 279, y: 18}
+      - {x: 270, y: 11}
+      - {x: 270, y: -278}
+      - {x: 426, y: -278}
+      - {x: 426, y: 18}
+    - - {x: -394, y: 4}
+      - {x: 260, y: 8}
+      - {x: 260, y: -272}
+      - {x: -420, y: -272}
+    - - {x: 283, y: 1}
+      - {x: 418, y: 6}
+      - {x: 420, y: -272}
+      - {x: 276, y: -272}
+    - - {x: -418, y: -138}
+      - {x: -418, y: -268}
+      - {x: -260, y: -268}
+      - {x: -260, y: -139}
+      - {x: -261, y: -138}
+    - - {x: 295, y: -226}
+      - {x: 287, y: -229}
+      - {x: 287, y: -255}
+      - {x: 292, y: -258}
+      - {x: 308, y: -258}
+      - {x: 319, y: -253}
+      - {x: 319, y: -234}
+      - {x: 311, y: -226}
+    - - {x: 301, y: -241}
+      - {x: 305, y: -241}
+      - {x: 304, y: -244}
+      - {x: 302, y: -243}
+    - - {x: 394, y: -114}
+      - {x: 368, y: -132}
+      - {x: 368, y: -243}
+      - {x: 416, y: -243}
+      - {x: 416, y: -139}
+      - {x: 409, y: -114}
+    - - {x: 324, y: -220}
+      - {x: 324, y: -241}
+      - {x: 354, y: -241}
+      - {x: 354, y: -221}
+      - {x: 352, y: -219}
+      - {x: 326, y: -219}
+    - - {x: 288, y: -200}
+      - {x: 288, y: -228}
+      - {x: 319, y: -228}
+      - {x: 319, y: -200}
+    - - {x: -209, y: -174}
+      - {x: -213, y: -175}
+      - {x: -222, y: -195}
+      - {x: -222, y: -202}
+      - {x: -210, y: -202}
+      - {x: -194, y: -197}
+      - {x: -194, y: -174}
+    - - {x: -111, y: -177}
+      - {x: -117, y: -178}
+      - {x: -123, y: -182}
+      - {x: -123, y: -196}
+      - {x: -121, y: -199}
+      - {x: -106, y: -199}
+      - {x: -101, y: -197}
+      - {x: -101, y: -179}
+      - {x: -103, y: -177}
+    - - {x: -157, y: -177}
+      - {x: -160, y: -183}
+      - {x: -160, y: -197}
+      - {x: -159, y: -198}
+      - {x: -129, y: -198}
+      - {x: -128, y: -195}
+      - {x: -128, y: -185}
+      - {x: -131, y: -177}
+    - - {x: 297, y: -165}
+      - {x: 287, y: -171}
+      - {x: 287, y: -191}
+      - {x: 291, y: -197}
+      - {x: 317, y: -197}
+      - {x: 319, y: -196}
+      - {x: 319, y: -167}
+      - {x: 316, y: -165}
+    - - {x: -186, y: -181}
+      - {x: -189, y: -185}
+      - {x: -189, y: -192}
+      - {x: -183, y: -195}
+      - {x: -165, y: -195}
+      - {x: -163, y: -190}
+      - {x: -163, y: -183}
+      - {x: -167, y: -181}
+    - - {x: -115, y: -188}
+      - {x: -112, y: -187}
+      - {x: -111, y: -190}
+      - {x: -114, y: -191}
+    - - {x: 301, y: -180}
+      - {x: 304, y: -179}
+      - {x: 305, y: -182}
+      - {x: 302, y: -182}
+    - - {x: 324, y: -158}
+      - {x: 324, y: -180}
+      - {x: 354, y: -180}
+      - {x: 354, y: -158}
+    - - {x: -151, y: -143}
+      - {x: -154, y: -145}
+      - {x: -154, y: -161}
+      - {x: -148, y: -170}
+      - {x: -139, y: -170}
+      - {x: -134, y: -164}
+      - {x: -134, y: -146}
+      - {x: -136, y: -143}
+    - - {x: -126, y: -143}
+      - {x: -126, y: -164}
+      - {x: -115, y: -170}
+      - {x: -107, y: -170}
+      - {x: -98, y: -163}
+      - {x: -98, y: -143}
+    - - {x: -222, y: -144}
+      - {x: -224, y: -145}
+      - {x: -224, y: -157}
+      - {x: -221, y: -168}
+      - {x: -197, y: -168}
+      - {x: -192, y: -163}
+      - {x: -192, y: -144}
+    - - {x: -192, y: -143}
+      - {x: -192, y: -148}
+      - {x: -187, y: -168}
+      - {x: -166, y: -168}
+      - {x: -160, y: -151}
+      - {x: -160, y: -143}
+    - - {x: 288, y: -139}
+      - {x: 288, y: -167}
+      - {x: 319, y: -167}
+      - {x: 319, y: -139}
+    - - {x: -148, y: -154}
+      - {x: -146, y: -150}
+      - {x: -143, y: -149}
+      - {x: -140, y: -154}
+    - - {x: 312, y: -4}
+      - {x: 311, y: -5}
+      - {x: 285, y: -33}
+      - {x: 285, y: -116}
+      - {x: 293, y: -136}
+      - {x: 388, y: -136}
+      - {x: 417, y: -128}
+      - {x: 417, y: -33}
+      - {x: 389, y: -4}
+    - - {x: 140, y: 0}
+      - {x: 140, y: -130}
+      - {x: 258, y: -130}
+      - {x: 258, y: 0}
+    - - {x: -418, y: -2}
+      - {x: -418, y: -128}
+      - {x: -256, y: -128}
+      - {x: -256, y: -2}
+    - - {x: -240, y: -6}
+      - {x: -244, y: -10}
+      - {x: -244, y: -120}
+      - {x: -240, y: -124}
+      - {x: -130, y: -124}
+      - {x: -126, y: -120}
+      - {x: -126, y: -10}
+      - {x: -130, y: -6}
+    - - {x: -114, y: -6}
+      - {x: -118, y: -10}
+      - {x: -118, y: -120}
+      - {x: -114, y: -124}
+      - {x: -4, y: -124}
+      - {x: 0, y: -120}
+      - {x: 0, y: -10}
+      - {x: -4, y: -6}
+    - - {x: 12, y: -6}
+      - {x: 8, y: -10}
+      - {x: 8, y: -120}
+      - {x: 12, y: -124}
+      - {x: 122, y: -124}
+      - {x: 126, y: -120}
+      - {x: 126, y: -10}
+      - {x: 122, y: -6}
+    - - {x: 318, y: -113}
+      - {x: 324, y: -115}
+      - {x: 322, y: -121}
+      - {x: 317, y: -120}
+    - - {x: 302, y: -97}
+      - {x: 308, y: -99}
+      - {x: 306, y: -105}
+      - {x: 301, y: -104}
+    - - {x: -361, y: -85}
+      - {x: -359, y: -84}
+      - {x: -358, y: -86}
+      - {x: -360, y: -86}
+    - - {x: -316, y: -85}
+      - {x: -314, y: -84}
+      - {x: -313, y: -86}
+      - {x: -315, y: -86}
+    - - {x: -361, y: -44}
+      - {x: -359, y: -43}
+      - {x: -358, y: -45}
+      - {x: -360, y: -45}
+    - - {x: -316, y: -44}
+      - {x: -314, y: -43}
+      - {x: -313, y: -45}
+      - {x: -315, y: -45}
+    - - {x: 388, y: -27}
+      - {x: 394, y: -29}
+      - {x: 392, y: -35}
+      - {x: 387, y: -34}
+    - - {x: -127, y: 122}
+      - {x: -423, y: 122}
+      - {x: -426, y: 116}
+      - {x: -426, y: 22}
+      - {x: -422, y: 18}
+      - {x: -1, y: 18}
+      - {x: 3, y: 22}
+      - {x: 3, y: 118}
+    - - {x: 6, y: 122}
+      - {x: 6, y: 22}
+      - {x: 10, y: 18}
+      - {x: 184, y: 18}
+      - {x: 188, y: 22}
+      - {x: 188, y: 114}
+      - {x: 187, y: 122}
+    - - {x: 192, y: 18}
+      - {x: 334, y: 18}
+      - {x: 334, y: 98}
+      - {x: 197, y: 98}
+      - {x: 192, y: 95}
+    - - {x: 403, y: 98}
+      - {x: 344, y: 98}
+      - {x: 337, y: 96}
+      - {x: 337, y: 22}
+      - {x: 341, y: 18}
+      - {x: 403, y: 18}
+      - {x: 407, y: 22}
+      - {x: 407, y: 95}
+    - - {x: -360, y: 104}
+      - {x: -3, y: 112}
+      - {x: -3, y: 24}
+      - {x: -420, y: 24}
+    - - {x: 19, y: 106}
+      - {x: 182, y: 112}
+      - {x: 182, y: 24}
+      - {x: 12, y: 24}
+    - - {x: 205, y: 81}
+      - {x: 326, y: 85}
+      - {x: 328, y: 24}
+      - {x: 198, y: 24}
+    - - {x: 342, y: 32}
+      - {x: 341, y: 30}
+      - {x: 349, y: 22}
+      - {x: 351, y: 23}
+      - {x: 343, y: 24}
+    - - {x: 361, y: 22}
+      - {x: 367, y: 28}
+      - {x: 370, y: 25}
+      - {x: 373, y: 24}
+      - {x: 379, y: 24}
+      - {x: 382, y: 25}
+      - {x: 390, y: 33}
+      - {x: 391, y: 36}
+      - {x: 391, y: 42}
+      - {x: 389, y: 43}
+      - {x: 390, y: 41}
+      - {x: 400, y: 41}
+      - {x: 403, y: 44}
+      - {x: 402, y: 46}
+      - {x: 401, y: 24}
+      - {x: 359, y: 23}
+      - {x: 360, y: 22}
+    - - {x: 201, y: 83}
+      - {x: 201, y: 30}
+      - {x: 326, y: 30}
+      - {x: 326, y: 79}
+      - {x: 324, y: 83}
+    - - {x: 353, y: 40}
+      - {x: 359, y: 38}
+      - {x: 357, y: 32}
+      - {x: 352, y: 33}
+    - - {x: 374, y: 43}
+      - {x: 380, y: 41}
+      - {x: 378, y: 35}
+      - {x: 373, y: 36}
+    - - {x: -415, y: 102}
+      - {x: -418, y: 89}
+      - {x: -418, y: 34}
+      - {x: -36, y: 34}
+      - {x: -36, y: 93}
+      - {x: -45, y: 102}
+    - - {x: 20, y: 106}
+      - {x: 14, y: 98}
+      - {x: 14, y: 53}
+      - {x: 21, y: 38}
+      - {x: 153, y: 38}
+      - {x: 153, y: 105}
+      - {x: 149, y: 106}
+    - - {x: 228, y: 48}
+      - {x: 234, y: 46}
+      - {x: 232, y: 40}
+      - {x: 227, y: 41}
+    - - {x: 310, y: 48}
+      - {x: 316, y: 46}
+      - {x: 314, y: 40}
+      - {x: 309, y: 41}
+    - - {x: 342, y: 67}
+      - {x: 341, y: 65}
+      - {x: 347, y: 59}
+      - {x: 347, y: 48}
+      - {x: 341, y: 42}
+      - {x: 342, y: 40}
+      - {x: 343, y: 41}
+    - - {x: 363, y: 48}
+      - {x: 365, y: 48}
+      - {x: 366, y: 45}
+      - {x: 366, y: 46}
+    - - {x: 160, y: 60}
+      - {x: 158, y: 58}
+      - {x: 158, y: 46}
+      - {x: 160, y: 44}
+      - {x: 177, y: 44}
+      - {x: 179, y: 46}
+      - {x: 179, y: 58}
+      - {x: 177, y: 60}
+    - - {x: 384, y: 51}
+      - {x: 384, y: 56}
+      - {x: 390, y: 62}
+      - {x: 390, y: 64}
+      - {x: 391, y: 65}
+      - {x: 392, y: 72}
+      - {x: 384, y: 84}
+      - {x: 368, y: 84}
+      - {x: 367, y: 79}
+      - {x: 361, y: 85}
+      - {x: 358, y: 86}
+      - {x: 352, y: 86}
+      - {x: 349, y: 85}
+      - {x: 341, y: 77}
+      - {x: 342, y: 75}
+      - {x: 343, y: 88}
+      - {x: 348, y: 84}
+      - {x: 389, y: 84}
+      - {x: 400, y: 64}
+      - {x: 390, y: 64}
+      - {x: 386, y: 60}
+      - {x: 386, y: 47}
+      - {x: 388, y: 48}
+    - - {x: 295, y: 57}
+      - {x: 300, y: 61}
+      - {x: 304, y: 56}
+      - {x: 300, y: 52}
+    - - {x: 219, y: 60}
+      - {x: 222, y: 56}
+      - {x: 219, y: 53}
+      - {x: 220, y: 53}
+    - - {x: 244, y: 56}
+      - {x: 244, y: 57}
+      - {x: 238, y: 57}
+      - {x: 238, y: 56}
+    - - {x: 91, y: 62}
+      - {x: 86, y: 62}
+    - - {x: 133, y: 62}
+      - {x: 128, y: 62}
+    - - {x: 374, y: 72}
+      - {x: 380, y: 70}
+      - {x: 378, y: 64}
+      - {x: 373, y: 65}
+    - - {x: 228, y: 73}
+      - {x: 234, y: 71}
+      - {x: 232, y: 65}
+      - {x: 227, y: 66}
+    - - {x: 310, y: 73}
+      - {x: 316, y: 71}
+      - {x: 314, y: 65}
+      - {x: 309, y: 66}
+    - - {x: 160, y: 80}
+      - {x: 158, y: 78}
+      - {x: 158, y: 66}
+      - {x: 160, y: 64}
+      - {x: 177, y: 64}
+      - {x: 179, y: 66}
+      - {x: 179, y: 78}
+      - {x: 177, y: 80}
+    - - {x: 353, y: 75}
+      - {x: 359, y: 73}
+      - {x: 357, y: 67}
+      - {x: 352, y: 68}
+    - - {x: 91, y: 82}
+      - {x: 86, y: 82}
+    - - {x: 133, y: 82}
+      - {x: 128, y: 82}
+    - - {x: 160, y: 100}
+      - {x: 158, y: 98}
+      - {x: 158, y: 86}
+      - {x: 160, y: 84}
+      - {x: 177, y: 84}
+      - {x: 179, y: 86}
+      - {x: 179, y: 98}
+      - {x: 177, y: 100}
+    - - {x: -24, y: 98}
+      - {x: -26, y: 96}
+      - {x: -26, y: 92}
+      - {x: -24, y: 90}
+      - {x: -9, y: 90}
+      - {x: -7, y: 92}
+      - {x: -7, y: 96}
+      - {x: -9, y: 98}
+    - - {x: 370, y: 282}
+      - {x: 203, y: 282}
+      - {x: 195, y: 279}
+      - {x: 192, y: 274}
+      - {x: 192, y: 102}
+      - {x: 196, y: 98}
+      - {x: 422, y: 98}
+      - {x: 426, y: 102}
+      - {x: 426, y: 278}
+    - - {x: 205, y: 265}
+      - {x: 418, y: 270}
+      - {x: 420, y: 104}
+      - {x: 198, y: 104}
+    - - {x: 200, y: 168}
+      - {x: 200, y: 115}
+      - {x: 373, y: 115}
+      - {x: 373, y: 168}
+    - - {x: -280, y: 198}
+      - {x: -426, y: 198}
+      - {x: -426, y: 126}
+      - {x: -422, y: 122}
+      - {x: -282, y: 122}
+      - {x: -278, y: 126}
+      - {x: -278, y: 195}
+    - - {x: -274, y: 122}
+      - {x: -187, y: 122}
+      - {x: -187, y: 193}
+      - {x: -188, y: 198}
+      - {x: -268, y: 198}
+      - {x: -274, y: 195}
+    - - {x: -179, y: 158}
+      - {x: -183, y: 154}
+      - {x: -183, y: 126}
+      - {x: -179, y: 122}
+      - {x: 160, y: 122}
+      - {x: 164, y: 126}
+      - {x: 164, y: 154}
+      - {x: 160, y: 158}
+    - - {x: 287, y: 133}
+      - {x: 293, y: 131}
+      - {x: 291, y: 125}
+      - {x: 286, y: 126}
+    - - {x: 357, y: 133}
+      - {x: 363, y: 131}
+      - {x: 361, y: 125}
+      - {x: 356, y: 126}
+    - - {x: -415, y: 184}
+      - {x: -296, y: 184}
+      - {x: -284, y: 128}
+      - {x: -420, y: 128}
+    - - {x: -261, y: 179}
+      - {x: -198, y: 182}
+      - {x: -193, y: 128}
+      - {x: -268, y: 128}
+    - - {x: -418, y: 181}
+      - {x: -418, y: 132}
+      - {x: -417, y: 131}
+      - {x: -352, y: 131}
+      - {x: -352, y: 181}
+    - - {x: -346, y: 145}
+      - {x: -350, y: 142}
+      - {x: -350, y: 138}
+      - {x: -348, y: 134}
+      - {x: -343, y: 134}
+      - {x: -340, y: 136}
+      - {x: -338, y: 142}
+      - {x: -338, y: 144}
+      - {x: -340, y: 145}
+    - - {x: -300, y: 144}
+      - {x: -302, y: 142}
+      - {x: -302, y: 141}
+      - {x: -298, y: 134}
+      - {x: -294, y: 134}
+      - {x: -290, y: 141}
+      - {x: -290, y: 143}
+      - {x: -292, y: 144}
+    - - {x: -333, y: 145}
+      - {x: -333, y: 135}
+      - {x: -325, y: 135}
+      - {x: -323, y: 136}
+      - {x: -323, y: 145}
+    - - {x: 272, y: 142}
+      - {x: 277, y: 146}
+      - {x: 281, y: 141}
+      - {x: 277, y: 137}
+    - - {x: -314, y: 146}
+      - {x: -318, y: 139}
+      - {x: -318, y: 137}
+      - {x: -316, y: 136}
+      - {x: -307, y: 136}
+      - {x: -306, y: 138}
+      - {x: -306, y: 141}
+      - {x: -310, y: 146}
+    - - {x: -266, y: 157}
+      - {x: -266, y: 139}
+      - {x: -264, y: 137}
+      - {x: -256, y: 137}
+      - {x: -250, y: 143}
+      - {x: -250, y: 145}
+      - {x: -263, y: 158}
+    - - {x: -250, y: 157}
+      - {x: -250, y: 139}
+      - {x: -248, y: 137}
+      - {x: -240, y: 137}
+      - {x: -234, y: 143}
+      - {x: -234, y: 145}
+      - {x: -247, y: 158}
+    - - {x: -250, y: 178}
+      - {x: -250, y: 147}
+      - {x: -236, y: 137}
+      - {x: -218, y: 137}
+      - {x: -218, y: 173}
+      - {x: -225, y: 178}
+    - - {x: 303, y: 141}
+      - {x: 303, y: 142}
+      - {x: 297, y: 142}
+      - {x: 297, y: 141}
+    - - {x: 351, y: 141}
+      - {x: 351, y: 142}
+      - {x: 345, y: 142}
+      - {x: 345, y: 141}
+    - - {x: -404, y: 149}
+      - {x: -405, y: 148}
+      - {x: -404, y: 147}
+      - {x: -400, y: 151}
+      - {x: -401, y: 152}
+      - {x: -402, y: 151}
+      - {x: -398, y: 147}
+      - {x: -397, y: 148}
+      - {x: -398, y: 149}
+      - {x: -402, y: 145}
+      - {x: -401, y: 144}
+      - {x: -400, y: 145}
+    - - {x: -388, y: 149}
+      - {x: -389, y: 148}
+      - {x: -388, y: 147}
+      - {x: -384, y: 151}
+      - {x: -385, y: 152}
+      - {x: -386, y: 151}
+      - {x: -382, y: 147}
+      - {x: -381, y: 148}
+      - {x: -382, y: 149}
+      - {x: -386, y: 145}
+      - {x: -385, y: 144}
+      - {x: -384, y: 145}
+    - - {x: -372, y: 149}
+      - {x: -373, y: 148}
+      - {x: -372, y: 147}
+      - {x: -368, y: 151}
+      - {x: -369, y: 152}
+      - {x: -370, y: 151}
+      - {x: -366, y: 147}
+      - {x: -365, y: 148}
+      - {x: -366, y: 149}
+      - {x: -370, y: 145}
+      - {x: -369, y: 144}
+      - {x: -368, y: 145}
+    - - {x: 287, y: 158}
+      - {x: 293, y: 156}
+      - {x: 291, y: 150}
+      - {x: 286, y: 151}
+    - - {x: 357, y: 158}
+      - {x: 363, y: 156}
+      - {x: 361, y: 150}
+      - {x: 356, y: 151}
+    - - {x: 386, y: 164}
+      - {x: 384, y: 160}
+      - {x: 384, y: 149}
+      - {x: 385, y: 148}
+      - {x: 413, y: 148}
+      - {x: 413, y: 160}
+      - {x: 410, y: 164}
+    - - {x: -347, y: 162}
+      - {x: -350, y: 160}
+      - {x: -350, y: 153}
+      - {x: -348, y: 150}
+      - {x: -341, y: 150}
+      - {x: -338, y: 152}
+      - {x: -338, y: 159}
+      - {x: -340, y: 162}
+    - - {x: -313, y: 162}
+      - {x: -318, y: 158}
+      - {x: -318, y: 154}
+      - {x: -312, y: 150}
+      - {x: -310, y: 150}
+      - {x: -308, y: 151}
+      - {x: -308, y: 161}
+      - {x: -310, y: 162}
+    - - {x: -297, y: 162}
+      - {x: -299, y: 162}
+      - {x: -300, y: 160}
+      - {x: -300, y: 152}
+      - {x: -298, y: 150}
+      - {x: -297, y: 150}
+      - {x: -290, y: 154}
+      - {x: -290, y: 158}
+    - - {x: -332, y: 159}
+      - {x: -334, y: 157}
+      - {x: -334, y: 155}
+      - {x: -332, y: 153}
+      - {x: -324, y: 153}
+      - {x: -322, y: 155}
+      - {x: -322, y: 157}
+      - {x: -324, y: 159}
+    - - {x: -218, y: 177}
+      - {x: -218, y: 159}
+      - {x: -216, y: 157}
+      - {x: -208, y: 157}
+      - {x: -202, y: 163}
+      - {x: -202, y: 165}
+      - {x: -215, y: 178}
+    - - {x: -404, y: 165}
+      - {x: -405, y: 164}
+      - {x: -404, y: 163}
+      - {x: -400, y: 167}
+      - {x: -401, y: 168}
+      - {x: -402, y: 167}
+      - {x: -398, y: 163}
+      - {x: -397, y: 164}
+      - {x: -398, y: 165}
+      - {x: -402, y: 161}
+      - {x: -401, y: 160}
+      - {x: -400, y: 161}
+    - - {x: -388, y: 165}
+      - {x: -389, y: 164}
+      - {x: -388, y: 163}
+      - {x: -384, y: 167}
+      - {x: -385, y: 168}
+      - {x: -386, y: 167}
+      - {x: -382, y: 163}
+      - {x: -381, y: 164}
+      - {x: -382, y: 165}
+      - {x: -386, y: 161}
+      - {x: -385, y: 160}
+      - {x: -384, y: 161}
+    - - {x: -372, y: 165}
+      - {x: -373, y: 164}
+      - {x: -372, y: 163}
+      - {x: -368, y: 167}
+      - {x: -369, y: 168}
+      - {x: -370, y: 167}
+      - {x: -366, y: 163}
+      - {x: -365, y: 164}
+      - {x: -366, y: 165}
+      - {x: -370, y: 161}
+      - {x: -369, y: 160}
+      - {x: -368, y: 161}
+    - - {x: -266, y: 164}
+      - {x: -264, y: 159}
+      - {x: -254, y: 159}
+      - {x: -251, y: 160}
+      - {x: -251, y: 172}
+      - {x: -260, y: 178}
+      - {x: -266, y: 178}
+    - - {x: -94, y: 266}
+      - {x: -183, y: 266}
+      - {x: -183, y: 162}
+      - {x: 32, y: 162}
+      - {x: 32, y: 262}
+      - {x: 29, y: 263}
+    - - {x: 98, y: 274}
+      - {x: 44, y: 274}
+      - {x: 40, y: 270}
+      - {x: 36, y: 267}
+      - {x: 36, y: 166}
+      - {x: 40, y: 162}
+      - {x: 150, y: 162}
+      - {x: 154, y: 166}
+      - {x: 154, y: 272}
+    - - {x: -347, y: 179}
+      - {x: -350, y: 176}
+      - {x: -350, y: 168}
+      - {x: -347, y: 165}
+      - {x: -341, y: 165}
+      - {x: -338, y: 168}
+      - {x: -338, y: 176}
+      - {x: -341, y: 179}
+    - - {x: -329, y: 179}
+      - {x: -333, y: 175}
+      - {x: -335, y: 172}
+      - {x: -335, y: 166}
+      - {x: -334, y: 165}
+      - {x: -330, y: 165}
+      - {x: -325, y: 167}
+      - {x: -321, y: 171}
+      - {x: -321, y: 175}
+      - {x: -325, y: 179}
+    - - {x: -318, y: 174}
+      - {x: -318, y: 171}
+      - {x: -315, y: 166}
+      - {x: -312, y: 166}
+      - {x: -306, y: 169}
+      - {x: -306, y: 174}
+      - {x: -309, y: 177}
+      - {x: -315, y: 177}
+    - - {x: -170, y: 249}
+      - {x: 24, y: 254}
+      - {x: 26, y: 168}
+      - {x: -177, y: 168}
+    - - {x: 49, y: 202}
+      - {x: 146, y: 206}
+      - {x: 148, y: 168}
+      - {x: 42, y: 168}
+    - - {x: -175, y: 246}
+      - {x: -175, y: 170}
+      - {x: -97, y: 170}
+      - {x: -97, y: 246}
+    - - {x: 44, y: 170}
+      - {x: 146, y: 170}
+      - {x: 146, y: 206}
+      - {x: 44, y: 206}
+    - - {x: 199, y: 262}
+      - {x: 199, y: 172}
+      - {x: 327, y: 172}
+      - {x: 327, y: 262}
+    - - {x: 335, y: 200}
+      - {x: 328, y: 196}
+      - {x: 328, y: 179}
+      - {x: 337, y: 172}
+      - {x: 349, y: 172}
+      - {x: 356, y: 181}
+      - {x: 356, y: 193}
+      - {x: 352, y: 200}
+    - - {x: 363, y: 188}
+      - {x: 363, y: 175}
+      - {x: 377, y: 175}
+      - {x: 377, y: 188}
+    - - {x: 383, y: 189}
+      - {x: 379, y: 185}
+      - {x: 379, y: 179}
+      - {x: 383, y: 175}
+      - {x: 389, y: 175}
+      - {x: 393, y: 179}
+      - {x: 393, y: 185}
+      - {x: 389, y: 189}
+    - - {x: 398, y: 187}
+      - {x: 397, y: 184}
+      - {x: 397, y: 177}
+      - {x: 400, y: 176}
+      - {x: 412, y: 176}
+      - {x: 412, y: 185}
+      - {x: 408, y: 187}
+    - - {x: -163, y: 188}
+      - {x: -157, y: 186}
+      - {x: -159, y: 180}
+      - {x: -164, y: 181}
+    - - {x: -118, y: 188}
+      - {x: -112, y: 186}
+      - {x: -114, y: 180}
+      - {x: -119, y: 181}
+    - - {x: 340, y: 190}
+      - {x: 346, y: 188}
+      - {x: 344, y: 182}
+      - {x: 339, y: 183}
+    - - {x: 364, y: 206}
+      - {x: 364, y: 192}
+      - {x: 366, y: 190}
+      - {x: 376, y: 190}
+      - {x: 376, y: 205}
+      - {x: 375, y: 206}
+    - - {x: 381, y: 206}
+      - {x: 379, y: 204}
+      - {x: 379, y: 193}
+      - {x: 381, y: 191}
+      - {x: 391, y: 191}
+      - {x: 393, y: 193}
+      - {x: 393, y: 202}
+      - {x: 389, y: 206}
+    - - {x: 400, y: 204}
+      - {x: 398, y: 203}
+      - {x: 398, y: 193}
+      - {x: 409, y: 193}
+      - {x: 413, y: 195}
+      - {x: 413, y: 199}
+      - {x: 411, y: 204}
+    - - {x: -93, y: 246}
+      - {x: -93, y: 196}
+      - {x: -64, y: 196}
+      - {x: -64, y: 246}
+    - - {x: -64, y: 246}
+      - {x: -64, y: 196}
+      - {x: -35, y: 196}
+      - {x: -35, y: 246}
+    - - {x: -35, y: 246}
+      - {x: -35, y: 199}
+      - {x: -33, y: 196}
+      - {x: -11, y: 196}
+      - {x: -6, y: 197}
+      - {x: -6, y: 246}
+    - - {x: -6, y: 246}
+      - {x: -6, y: 199}
+      - {x: -4, y: 196}
+      - {x: 18, y: 196}
+      - {x: 23, y: 197}
+      - {x: 23, y: 246}
+    - - {x: 311, y: 201}
+      - {x: 311, y: 202}
+      - {x: 215, y: 202}
+      - {x: 215, y: 201}
+    - - {x: -426, y: 282}
+      - {x: -426, y: 202}
+      - {x: -204, y: 202}
+      - {x: -204, y: 275}
+      - {x: -205, y: 282}
+    - - {x: -413, y: 265}
+      - {x: -212, y: 269}
+      - {x: -210, y: 208}
+      - {x: -420, y: 208}
+    - - {x: 336, y: 261}
+      - {x: 336, y: 208}
+      - {x: 414, y: 208}
+      - {x: 414, y: 261}
+    - - {x: -418, y: 246}
+      - {x: -418, y: 210}
+      - {x: -316, y: 210}
+      - {x: -316, y: 243}
+      - {x: -320, y: 246}
+    - - {x: -314, y: 272}
+      - {x: -314, y: 210}
+      - {x: -212, y: 210}
+      - {x: -212, y: 272}
+    - - {x: -109, y: 223}
+      - {x: -163, y: 223}
+    - - {x: 147, y: 260}
+      - {x: 144, y: 263}
+      - {x: 148, y: 264}
+      - {x: 148, y: 224}
+    - - {x: 311, y: 232}
+      - {x: 311, y: 233}
+      - {x: 215, y: 233}
+      - {x: 215, y: 232}
+    - - {x: -234, y: 262}
+      - {x: -228, y: 260}
+      - {x: -230, y: 254}
+      - {x: -235, y: 255}
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\evang\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\evang\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_DS Test.2012399079.00" t="ExcludeRecursive" />
+    <e p="C:\Users\evang\Documents\UnityProjects\DS Test" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="ArrowLine.cs" t="Include" />
+        <e p="DamageDummy.cs" t="Include" />
+        <e p="MoveToPoint.cs" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="CryoDI" t="Include">
+            <e p="CircularDependencyException.cs" t="Include" />
+            <e p="ContainerException.cs" t="Include" />
+            <e p="ContainerExtensions.cs" t="Include" />
+            <e p="CryoBehaviour.cs" t="Include" />
+            <e p="CryoBuilder.cs" t="Include" />
+            <e p="CryoContainer.cs" t="Include" />
+            <e p="DependencyAttribute.cs" t="Include" />
+            <e p="FindComponentHint.cs" t="Include" />
+            <e p="Helpers.cs" t="Include" />
+            <e p="IBuilder.cs" t="Include" />
+            <e p="IInitializable.cs" t="Include" />
+            <e p="ILateInitializable.cs" t="Include" />
+            <e p="Internal" t="Include">
+              <e p="Builder.cs" t="Include" />
+              <e p="BuildUpStack.cs" t="Include" />
+              <e p="ContainerKey.cs" t="Include" />
+              <e p="DILog.cs" t="Include" />
+              <e p="IInternalContainerBuidler.cs" t="Include" />
+              <e p="LifeTimeManager.cs" t="Include" />
+              <e p="LifeTimeStack.cs" t="Include" />
+              <e p="MaskFinder.cs" t="Include" />
+              <e p="PrefabInstantiator.cs" t="Include" />
+              <e p="Providers" t="Include">
+                <e p="FactoryMethodProvider.cs" t="Include" />
+                <e p="FindObjectProvider.cs" t="Include" />
+                <e p="GetComponentProvider.cs" t="Include" />
+                <e p="InstanceProvider.cs" t="Include" />
+                <e p="ScenePathProvider.cs" t="Include" />
+                <e p="SingletonProvider.cs" t="Include" />
+              </e>
+              <e p="Resolver.cs" t="Include" />
+              <e p="WeakResolver.cs" t="Include" />
+            </e>
+            <e p="IObjectProvider.cs" t="Include" />
+            <e p="IPrefabInstantiator.cs" t="Include" />
+            <e p="IResolver.cs" t="Include" />
+            <e p="IWeakResolver.cs" t="Include" />
+            <e p="LifeTime.cs" t="Include" />
+            <e p="Param.cs" t="Include" />
+            <e p="ParamAttribute.cs" t="Include" />
+            <e p="Reaction.cs" t="Include" />
+            <e p="Tests" t="Include">
+              <e p="Counters.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="TestCrossDependency.cs" t="Include" />
+                <e p="TestFactoryMethods.cs" t="Include" />
+                <e p="TestLifetimeError.cs" t="Include" />
+                <e p="TestNonPublicProperties.cs" t="Include" />
+                <e p="TestParameters.cs" t="Include" />
+                <e p="TestWeakResolve.cs" t="Include" />
+              </e>
+              <e p="LifetimeTest.cs" t="Include" />
+              <e p="LifetimeTest1.cs" t="Include" />
+              <e p="LifeTimeTest2.cs" t="Include" />
+            </e>
+            <e p="TODO.txt" t="Include" />
+            <e p="UnityStarter.cs" t="Include" />
+            <e p="WrongLifetimeException.cs" t="Include" />
+          </e>
+          <e p="Demigiant" t="Include">
+            <e p="DOTween" t="Include">
+              <e p="Modules" t="Include">
+                <e p="DOTweenModuleAudio.cs" t="Include" />
+                <e p="DOTweenModulePhysics.cs" t="Include" />
+                <e p="DOTweenModulePhysics2D.cs" t="Include" />
+                <e p="DOTweenModuleSprite.cs" t="Include" />
+                <e p="DOTweenModuleUI.cs" t="Include" />
+                <e p="DOTweenModuleUnityVersion.cs" t="Include" />
+                <e p="DOTweenModuleUtils.cs" t="Include" />
+              </e>
+              <e p="readme.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="App" t="Include">
+            <e p="GameManager.cs" t="Include" />
+          </e>
+          <e p="CCamera" t="Include">
+            <e p="CameraController.cs" t="Include" />
+          </e>
+          <e p="Follower.cs" t="Include" />
+          <e p="Inputs" t="Include">
+            <e p="Controls" t="Include">
+              <e p="PlayerControls.cs" t="Include" />
+            </e>
+            <e p="InputHandler.cs" t="Include" />
+          </e>
+          <e p="Inventory" t="Include">
+            <e p="InventoryItem.cs" t="Include" />
+            <e p="InventoryManager.cs" t="Include" />
+            <e p="InventoryUI.cs" t="Include" />
+            <e p="Item" t="Include">
+              <e p="Abstracts" t="Include">
+                <e p="IArrowInterface.cs" t="Include" />
+                <e p="IBowInterface.cs" t="Include" />
+                <e p="ISwordInterface.cs" t="Include" />
+                <e p="IWeaponInterface.cs" t="Include" />
+              </e>
+              <e p="Arrow.cs" t="Include" />
+              <e p="Base" t="Include">
+                <e p="BaseBow.cs" t="Include" />
+                <e p="BaseSword.cs" t="Include" />
+              </e>
+              <e p="Bow.cs" t="Include" />
+              <e p="Data" t="Include">
+                <e p="Abstracts" t="Include">
+                  <e p="IHealthData.cs" t="Include" />
+                  <e p="IItemData.cs" t="Include" />
+                  <e p="IWeaponItemData.cs" t="Include" />
+                </e>
+                <e p="HealthItemData.cs" t="Include" />
+                <e p="ItemData.cs" t="Include" />
+                <e p="WeaponItemData.cs" t="Include" />
+              </e>
+              <e p="Modificators" t="Include">
+                <e p="Abstracts" t="Include">
+                  <e p="IModificatorInterface.cs" t="Include" />
+                </e>
+                <e p="Data" t="Include">
+                  <e p="Test.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Sword.cs" t="Include" />
+            </e>
+            <e p="Repository" t="Include">
+              <e p="IInventoryRepository.cs" t="Include" />
+            </e>
+            <e p="Services" t="Include">
+              <e p="Abstracts" t="Include">
+                <e p="IItemInterface.cs" t="Include" />
+              </e>
+              <e p="BaseItemService.cs" t="Include" />
+              <e p="HealthItemService.cs" t="Include" />
+              <e p="WeaponItemService.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="ItemButton.cs" t="Include" />
+              <e p="ViewArea.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Locomotion" t="Include">
+            <e p="CharacterAnimator.cs" t="Include" />
+            <e p="CharacterMovement.cs" t="Include" />
+          </e>
+          <e p="Managers" t="Include">
+            <e p="Abstracts" t="Include">
+              <e p="IBowManagerInterface.cs" t="Include" />
+              <e p="ISwordManagerInterface.cs" t="Include" />
+            </e>
+            <e p="BowManager.cs" t="Include" />
+            <e p="PlayerManager.cs" t="Include" />
+            <e p="SwordManager.cs" t="Include" />
+          </e>
+          <e p="Stats" t="Include">
+            <e p="Abstracts" t="Include">
+              <e p="IDamagable.cs" t="Include" />
+              <e p="IPlayerStats.cs" t="Include" />
+            </e>
+            <e p="Effects" t="Include">
+              <e p="IEffectInterface.cs" t="Include" />
+            </e>
+            <e p="Player" t="Include">
+              <e p="PlayerStatsManager.cs" t="Include" />
+              <e p="PlayerStatsUI.cs" t="Include" />
+            </e>
+            <e p="StatsRepository.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Abstracts" t="Include">
+              <e p="MenuPage.cs" t="Include" />
+            </e>
+            <e p="BaseMenuPage.cs" t="Include" />
+            <e p="Elements" t="Include">
+              <e p="FillImageScript.cs" t="Include" />
+            </e>
+            <e p="GameMenuManager.cs" t="Include" />
+          </e>
+          <e p="Utility" t="Include">
+            <e p="Animator" t="Include">
+              <e p="ChangeVariableValue.cs" t="Include" />
+              <e p="SimpleEventDispatcher.cs" t="Include" />
+            </e>
+            <e p="CustomAnimationEvent.cs" t="Include" />
+            <e p="UnityEventDictionary.cs" t="Include" />
+          </e>
+        </e>
+        <e p="StoreAssets" t="Include">
+          <e p="Environment" t="Include">
+            <e p="Water" t="Include">
+              <e p="DO_NOT_WORK_IN_VR.txt" t="Include" />
+              <e p="Water" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="Displace.cs" t="Include" />
+                  <e p="GerstnerDisplace.cs" t="Include" />
+                  <e p="MeshContainer.cs" t="Include" />
+                  <e p="PlanarReflection.cs" t="Include" />
+                  <e p="SpecularLighting.cs" t="Include" />
+                  <e p="Water.cs" t="Include" />
+                  <e p="WaterBase.cs" t="Include" />
+                  <e p="WaterTile.cs" t="Include" />
+                </e>
+                <e p="Shaders" t="Include">
+                  <e p="FXWaterPro.shader" t="Include" />
+                </e>
+              </e>
+              <e p="Water4" t="Include">
+                <e p="Shaders" t="Include">
+                  <e p="FXWater4Advanced.shader" t="Include" />
+                  <e p="FXWater4Simple.shader" t="Include" />
+                  <e p="WaterInclude.cginc" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="Water (Basic)" t="Include">
+              <e p="DO_NOT_WORK_IN_VR.txt" t="Include" />
+              <e p="Scripts" t="Include">
+                <e p="WaterBasic.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="FXWaterBasic.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="ExampleAssets" t="Include">
+            <e p="Tutorial_Info" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="Editor" t="Include">
+                  <e p="ReadmeEditor.cs" t="Include" />
+                </e>
+                <e p="Readme.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Free medieval weapons" t="Include">
+            <e p="readme.txt" t="Include" />
+          </e>
+          <e p="JMO Assets" t="Include">
+            <e p="Cartoon FX" t="Include">
+              <e p="CartoonFX Free.txt" t="Include" />
+              <e p="Demo" t="Include">
+                <e p="Assets" t="Include">
+                  <e p="CFX_AutoStopLoopedEffect.cs" t="Include" />
+                  <e p="CFX_Demo_New.cs" t="Include" />
+                  <e p="CFX_Demo_RandomDir.cs" t="Include" />
+                  <e p="CFX_Demo_RandomDirectionTranslate.cs" t="Include" />
+                  <e p="CFX_Demo_RotateCamera.cs" t="Include" />
+                  <e p="CFX_Demo_Translate.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="CFX_AutoDestructShuriken.cs" t="Include" />
+                <e p="CFX_AutoRotate.cs" t="Include" />
+                <e p="CFX_LightFlicker.cs" t="Include" />
+                <e p="CFX_LightIntensityFade.cs" t="Include" />
+              </e>
+              <e p="Shaders" t="Include">
+                <e p="CFX3 Multiply Color.shader" t="Include" />
+                <e p="CFXM_MobileParticleAdd_Alpha8.shader" t="Include" />
+              </e>
+            </e>
+            <e p="Cartoon FX Easy Editor" t="Include">
+              <e p="CartoonFX Easy Editor Readme.txt" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="CFXEasyEditor.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="MeleeWeaponTrail" t="Include">
+            <e p="readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="Interpolate.cs" t="Include" />
+              <e p="MeleeWeaponTrail.cs" t="Include" />
+            </e>
+            <e p="XWeaponTrail" t="Include">
+              <e p="Editor" t="Include">
+                <e p="XWeaponTrailEditor.cs" t="Include" />
+              </e>
+              <e p="Scripts" t="Include">
+                <e p="Spline.cs" t="Include" />
+                <e p="SplineControlPoint.cs" t="Include" />
+                <e p="VertexPool.cs" t="Include" />
+                <e p="XWeaponTrail.cs" t="Include" />
+                <e p="XWeaponTrailDemo.cs" t="Include" />
+              </e>
+              <e p="Shader" t="Include">
+                <e p="xft_displacement_screen.shader" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="Prototyping" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="WorldCoordDiffuse.shader" t="Include" />
+            </e>
+          </e>
+          <e p="Standard Assets" t="Include">
+            <e p="Editor" t="Include">
+              <e p="CrossPlatformInput" t="Include">
+                <e p="CrossPlatformInputInitialize.cs" t="Include" />
+              </e>
+              <e p="Water" t="Include">
+                <e p="Water4" t="Include">
+                  <e p="GerstnerDisplaceEditor.cs" t="Include" />
+                  <e p="PlanarReflectionEditor.cs" t="Include" />
+                  <e p="SpecularLightingEditor.cs" t="Include" />
+                  <e p="WaterBaseEditor.cs" t="Include" />
+                  <e p="WaterEditorUtility.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="LiberationSans - OFL.txt" t="Include" />
+            </e>
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+              <e p="Shaders" t="Include">
+                <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+                <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+                <e p="TMP_Bitmap.shader" t="Include" />
+                <e p="TMP_SDF Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+                <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+                <e p="TMP_SDF-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+                <e p="TMP_SDF-Surface.shader" t="Include" />
+                <e p="TMP_SDF.shader" t="Include" />
+                <e p="TMP_Sprite.shader" t="Include" />
+                <e p="TMPro.cginc" t="Include" />
+                <e p="TMPro_Properties.cginc" t="Include" />
+                <e p="TMPro_Surface.cginc" t="Include" />
+              </e>
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="DS Test.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

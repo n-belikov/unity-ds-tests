@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 964ca27a84f84cf0ad5e4799956e431e, type: 3}
+  m_Name: Sword_3
+  m_EditorClassIdentifier: 
+  title: "\u0442\u0440\u0435\u0442\u0438\u0439 \u043A\u0430\u043A \u043F\u0435\u0440\u0432\u044B\u0439"
+  icon: {fileID: 21300000, guid: 1452c81710730424d913775f9e6c0e42, type: 3}
+  limit: 1
+  type: 0
+  holderType: 1
+  prefab: {fileID: 7397406081784374824, guid: 839910efaab51854585bb63afc0863c6, type: 3}
+  position: {x: 0, y: 0, z: 0}
+  rotation: {x: 0, y: 0, z: 0}
+  normalAttackList: []
+  heavyAttackList: []
