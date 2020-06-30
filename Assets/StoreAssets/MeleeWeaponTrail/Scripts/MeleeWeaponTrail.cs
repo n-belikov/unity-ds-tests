@@ -6,6 +6,7 @@
 // Based on code made by Forest Johnson (Yoggy) and xyber
 //
 
+using System;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -13,59 +14,34 @@ using System.Collections.Generic;
 
 public class MeleeWeaponTrail : MonoBehaviour
 {
-	[SerializeField]
-	bool _emit = true;
-	public bool Emit { set{_emit = value;} }
-
-	bool _use = true;
 	public bool Use { set{_use = value;} }
+	public bool Emit { set{_emit = value;} }
+	[SerializeField] private bool _emit = true;
 
-	[SerializeField]
-	float _emitTime = 0.0f;
-
-	[SerializeField]
-	Material _material;
-
-	[SerializeField]
-	float _lifeTime = 1.0f;
-
-	[SerializeField]
-	Color[] _colors;
-
-	[SerializeField]
-	float[] _sizes;
-
-	[SerializeField]
-	float _minVertexDistance = 0.1f;
-	[SerializeField]
-	float _maxVertexDistance = 10.0f;
-
-	float _minVertexDistanceSqr = 0.0f;
-	float _maxVertexDistanceSqr = 0.0f;
-
-	[SerializeField]
-	float _maxAngle = 3.00f;
-
-	[SerializeField]
-	bool _autoDestruct = false;
+	private bool _use = true;
+	private float _minVertexDistanceSqr = 0.0f, _maxVertexDistanceSqr = 0.0f;
+	[SerializeField] private float _emitTime = 0.0f;
+	[SerializeField] private Material _material;
+	[SerializeField] private float _lifeTime = 1.0f;
+	[SerializeField] private Color[] _colors;
+	[SerializeField] private float[] _sizes;
+	[SerializeField] private float _minVertexDistance = 0.1f, _maxVertexDistance = 10.0f;
+	[SerializeField] private float _maxAngle = 3.00f;
+	[SerializeField] private bool _autoDestruct = false;
 
 #if USE_INTERPOLATION
-	[SerializeField]
-	int subdivisions = 4;
+	[SerializeField] private int subdivisions = 4;
 #endif
 
-	[SerializeField]
-	Transform _base;
-	[SerializeField]
-	Transform _tip;
+	[SerializeField] private Transform _base, _tip;
 
-	List<Point> _points = new List<Point>();
+	private List<Point> _points = new List<Point>();
 #if USE_INTERPOLATION
-	List<Point> _smoothedPoints = new List<Point>();
+	private List<Point> _smoothedPoints = new List<Point>();
 #endif
-	GameObject _trailObject;
-	Mesh _trailMesh;
-	Vector3 _lastPosition;
+	private GameObject _trailObject;
+	private Mesh _trailMesh;
+	private Vector3 _lastPosition;
 
 	[System.Serializable]
 	public class Point
@@ -82,6 +58,13 @@ public class MeleeWeaponTrail : MonoBehaviour
 
 	void Start()
 	{
+		CreateTrail();
+		_minVertexDistanceSqr = _minVertexDistance * _minVertexDistance;
+		_maxVertexDistanceSqr = _maxVertexDistance * _maxVertexDistance;
+	}
+
+	void CreateTrail()
+	{ 
 		_lastPosition = transform.position;
 		_trailObject = new GameObject("Trail");
 		_trailObject.transform.parent = null;
@@ -95,17 +78,19 @@ public class MeleeWeaponTrail : MonoBehaviour
 		_trailMesh = new Mesh();
 		_trailMesh.name = name + "TrailMesh";
 		_trailObject.GetComponent<MeshFilter>().mesh = _trailMesh;
-
-		_minVertexDistanceSqr = _minVertexDistance * _minVertexDistance;
-		_maxVertexDistanceSqr = _maxVertexDistance * _maxVertexDistance;
 	}
 
-	void OnDisable()
+	private void OnEnable()
+	{
+		CreateTrail();
+	}
+
+	private void OnDisable()
 	{
 		Destroy(_trailObject);
 	}
 
-	void Update()
+	private void Update()
 	{
 		if (!_use)
 		{

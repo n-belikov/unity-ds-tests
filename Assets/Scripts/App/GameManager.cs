@@ -2,6 +2,8 @@
 using CryoDI;
 using Inputs;
 using Inventory;
+using Managers.Containers;
+using Managers.Containers.Abstracts;
 using Quest;
 using Stats.Abstracts;
 using Stats.Player;
@@ -18,6 +20,8 @@ namespace App
         [SerializeField] private InputHandler _inputHandler;
         [SerializeField] private InventoryManager _inventoryManager;
         [SerializeField] private QuestManager _questManager;
+        [SerializeField] private EffectContainer _effectContainer;
+        [SerializeField] private SoundContainer _soundContainer;
 
         protected override void SetupContainer(CryoContainer container)
         {
@@ -28,6 +32,8 @@ namespace App
             container.RegisterInstance<IPlayerStats>(_playerStatsManager);
             container.RegisterInstance<IInventoryManager>(_inventoryManager);
             container.RegisterInstance<IQuestManager>(_questManager);
+            container.RegisterInstance<IEffectContainer>(_effectContainer);
+            container.RegisterInstance<ISoundContainer>(_soundContainer);
         }
     }
 

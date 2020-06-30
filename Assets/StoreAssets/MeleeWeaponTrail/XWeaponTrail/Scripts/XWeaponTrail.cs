@@ -8,18 +8,8 @@ namespace Xft
     {
         public class Element
         {
-            public Vector3 PointStart;
-
-            public Vector3 PointEnd;
-
-            public Vector3 Pos
-            {
-                get
-                {
-                    return (PointStart + PointEnd) / 2f;
-                }
-            }
-
+            public Vector3 PointStart, PointEnd;
+            public Vector3 Pos => (PointStart + PointEnd) / 2f;
 
             public Element(Vector3 start, Vector3 end)
             {
@@ -27,10 +17,7 @@ namespace Xft
                 PointEnd = end;
             }
 
-            public Element()
-            {
-
-            }
+            public Element() {}
         }
 
 
@@ -47,11 +34,12 @@ namespace Xft
 
         public Color MyColor = Color.white;
         public Material MyMaterial;
+
         #endregion
 
 
-
         #region protected members
+
         protected float mTrailWidth = 0f;
         protected Element mHeadElem = new Element();
         protected List<Element> mSnapshotList = new List<Element>();
@@ -69,27 +57,26 @@ namespace Xft
         #endregion
 
         #region property
+
         public float UpdateInterval
         {
-            get
-            {
-                return 1f / Fps;
-            }
+            get { return 1f / Fps; }
         }
+
         public Vector3 CurHeadPos
         {
             get { return (PointStart.position + PointEnd.position) / 2f; }
         }
+
         public float TrailWidth
         {
-            get
-            {
-                return mTrailWidth;
-            }
+            get { return mTrailWidth; }
         }
+
         #endregion
 
         #region API
+
         //you may pre-init the trail to save some performance.
         public void Init()
         {
@@ -109,13 +96,11 @@ namespace Xft
 
         public void Activate()
         {
-
             Init();
 
 
             //check if scene has changed, need to recreate the mesh obj.
-            if (mMeshObj == null)
-            {
+            if (mMeshObj == null) {
                 InitMeshObj();
                 return;
             }
@@ -123,7 +108,7 @@ namespace Xft
             gameObject.SetActive(true);
             if (mMeshObj != null)
                 mMeshObj.SetActive(true);
-            
+
 
             mFadeT = 1f;
             mIsFading = false;
@@ -132,8 +117,7 @@ namespace Xft
             mElapsedTime = 0f;
 
             //reset all elemts to head pos.
-            for (int i = 0; i < mSnapshotList.Count; i++)
-            {
+            for (int i = 0; i < mSnapshotList.Count; i++) {
                 mSnapshotList[i].PointStart = PointStart.position;
                 mSnapshotList[i].PointEnd = PointEnd.position;
 
@@ -162,32 +146,29 @@ namespace Xft
         #endregion
 
         #region unity methods
+
         void Update()
         {
-
             if (!mInited)
                 return;
 
 
             //check if scene has changed, need to recreate the mesh obj.
-            if (mMeshObj == null)
-            {
+            if (mMeshObj == null) {
                 InitMeshObj();
                 return;
             }
-
 
 
             UpdateHeadElem();
 
 
             mElapsedTime += Time.deltaTime;
-            if (mElapsedTime < UpdateInterval)
-            {
+            if (mElapsedTime < UpdateInterval) {
                 return;
             }
-            mElapsedTime -= UpdateInterval;
 
+            mElapsedTime -= UpdateInterval;
 
 
             RecordCurElem();
@@ -198,7 +179,6 @@ namespace Xft
 
             UpdateVertex();
             //UpdateIndices();
-
         }
 
 
@@ -219,8 +199,7 @@ namespace Xft
 
         void OnDrawGizmos()
         {
-            if (PointEnd == null || PointStart == null)
-            {
+            if (PointEnd == null || PointStart == null) {
                 return;
             }
 
@@ -238,7 +217,6 @@ namespace Xft
 
             Gizmos.color = Color.blue;
             Gizmos.DrawSphere(PointEnd.position, dist * 0.04f);
-
         }
 
         #endregion
@@ -251,16 +229,14 @@ namespace Xft
 
             mSpline.Clear();
 
-            for (int i = 0; i < MaxFrame; i++)
-            {
+            for (int i = 0; i < MaxFrame; i++) {
                 mSpline.AddControlPoint(CurHeadPos, PointStart.position - PointEnd.position);
             }
         }
 
         void RefreshSpline()
         {
-            for (int i = 0; i < mSnapshotList.Count; i++)
-            {
+            for (int i = 0; i < mSnapshotList.Count; i++) {
                 mSpline.ControlPoints[i].Position = mSnapshotList[i].Pos;
                 mSpline.ControlPoints[i].Normal = mSnapshotList[i].PointEnd - mSnapshotList[i].PointStart;
             }
@@ -270,15 +246,13 @@ namespace Xft
 
         void UpdateVertex()
         {
-
             VertexPool pool = mVertexSegment.Pool;
 
 
-            for (int i = 0; i < Granularity; i++)
-            {
+            for (int i = 0; i < Granularity; i++) {
                 int baseIdx = mVertexSegment.VertStart + i * 3;
 
-                float uvSegment = (float)i / Granularity;
+                float uvSegment = (float) i / Granularity;
 
 
                 float fadeT = uvSegment * mFadeT;
@@ -319,16 +293,13 @@ namespace Xft
             mVertexSegment.Pool.UVChanged = true;
             mVertexSegment.Pool.VertChanged = true;
             mVertexSegment.Pool.ColorChanged = true;
-
         }
 
         void UpdateIndices()
         {
-
             VertexPool pool = mVertexSegment.Pool;
 
-            for (int i = 0; i < Granularity - 1; i++)
-            {
+            for (int i = 0; i < Granularity - 1; i++) {
                 int baseIdx = mVertexSegment.VertStart + i * 3;
                 int nextBaseIdx = mVertexSegment.VertStart + (i + 1) * 3;
 
@@ -350,7 +321,6 @@ namespace Xft
                 pool.Indices[iidx + 9] = nextBaseIdx + 2;
                 pool.Indices[iidx + 10] = baseIdx + 2;
                 pool.Indices[iidx + 11] = baseIdx + 1;
-
             }
 
             pool.IndiceChanged = true;
@@ -374,8 +344,7 @@ namespace Xft
 
             mFadeT = 1f - t;
 
-            if (mFadeT < 0f)
-            {
+            if (mFadeT < 0f) {
                 Deactivate();
             }
         }
@@ -385,16 +354,13 @@ namespace Xft
             //TODO: use element pool to avoid gc alloc.
             Element elem = new Element(PointStart.position, PointEnd.position);
 
-            if (mSnapshotList.Count < MaxFrame)
-            {
+            if (mSnapshotList.Count < MaxFrame) {
                 mSnapshotList.Insert(1, elem);
             }
-            else
-            {
+            else {
                 mSnapshotList.RemoveAt(mSnapshotList.Count - 1);
                 mSnapshotList.Insert(1, elem);
             }
-
         }
 
         void InitOriginalElements()
@@ -404,7 +370,6 @@ namespace Xft
             mSnapshotList.Add(new Element(PointStart.position, PointEnd.position));
             mSnapshotList.Add(new Element(PointStart.position, PointEnd.position));
         }
-
 
 
         void InitMeshObj()
@@ -427,14 +392,8 @@ namespace Xft
 
 
             UpdateIndices();
-
         }
 
         #endregion
-
-
     }
-
 }
-
-

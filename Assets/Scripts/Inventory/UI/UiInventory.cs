@@ -1,4 +1,6 @@
-﻿using Inventory.Repository;
+﻿using CryoDI;
+using Inventory.Repository;
+using Managers.Containers.Abstracts;
 using UnityEngine;
 
 namespace Inventory.UI
@@ -14,6 +16,7 @@ namespace Inventory.UI
         private IInventoryRepository _repository;
         private ItemButton[] _itemButtons;
         private int _currentSelectIndex = -1;
+        [Dependency] private ISoundContainer SoundContainer { get; set; }
 
         public void Init(InventoryManager inventoryManager)
         {
@@ -68,6 +71,7 @@ namespace Inventory.UI
         {
             _currentSelectIndex = button.Index;
             area.gameObject.SetActive(true);
+            SoundContainer.PlayByType(SoundType.InventoryItemClick);
             area.SetItem(
                 _repository.Get(button.Index)
             );

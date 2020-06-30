@@ -7,6 +7,8 @@ namespace Managers.Abstracts
     {
         UnityEvent OnStartSlashEvent { get; }
         UnityEvent OnEndSlashEvent { get; }
-        void InvokeDamage(GameObject gameObject);
+        void InvokeDamage(GameObject gameObject, Transform hitTransform);
+
+        void InvokeDamage(GameObject gameObject, Vector3 hitPoint);
     }
 }

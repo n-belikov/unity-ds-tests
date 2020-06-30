@@ -29,7 +29,7 @@ namespace Locomotion
             [Range(0f, 1f)] public float weight = 0f, bodyWeight = 0f, headWeight = 0f;
         }
 
-        private AnimatorBodyWeight BodyWeight = null;
+        private AnimatorBodyWeight _bodyWeight = null;
 
         public Events events;
 
@@ -128,13 +128,8 @@ namespace Locomotion
         {
             var states = Enum.GetValues(typeof(CharacterState)) as CharacterState[];
             foreach (var state in states) {
-                animator.SetBool("state." + state.ToString(), this.state == state);
+                animator.SetBool("state." + state, this.state == state);
             }
-        }
-
-        public void ApplyRootMotionValues()
-        {
-            _movement.MoveCharacter(animator.deltaPosition);
         }
 
         public void ApplyRootMotionValues(float multiplier)
@@ -145,12 +140,12 @@ namespace Locomotion
         [CanBeNull]
         public AnimatorBodyWeight GetBodyWeight()
         {
-            return BodyWeight;
+            return _bodyWeight;
         }
 
         public void SetBodyWeight([CanBeNull] AnimatorBodyWeight bodyWeight = null)
         {
-            this.BodyWeight = bodyWeight;
+            _bodyWeight = bodyWeight;
         }
 
         public void SetLookAt(Vector3 loockAt)
@@ -165,8 +160,8 @@ namespace Locomotion
 
         private void OnAnimatorIK(int layer)
         {
-            if (BodyWeight != null) {
-                animator.SetLookAtWeight(BodyWeight.weight, BodyWeight.bodyWeight, BodyWeight.headWeight, 0.3f);
+            if (_bodyWeight != null) {
+                animator.SetLookAtWeight(_bodyWeight.weight, _bodyWeight.bodyWeight, _bodyWeight.headWeight, 0.3f);
                 animator.SetLookAtPosition(_lockAtPosition);
             }
         }

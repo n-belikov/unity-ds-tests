@@ -20,22 +20,20 @@ namespace Managers
         [SerializeField] [Range(0f, 1f)] private float rollStart = 0.3f;
         [SerializeField] private CharacterMovement movement;
         [SerializeField] private CharacterAnimator animator;
-        [SerializeField] private bool _inMenu = false;
+        [SerializeField] private float _jumpRollForward = 10f;
         [Dependency] private IInventoryManager InventoryManager { get; set; }
         [Dependency] private IInputHandler InputHandler { get; set; }
         [Dependency] public ICamera Camera { get; private set; }
-        
         [Dependency] public IPlayerStats Stats { get; private set; }
         
         public bool IsJumping => _state == PlayerState.Jump;
         public bool IsRoll => _state == PlayerState.Roll;
         public PlayerState State => _state;
-
         public bool DisableGravity { get; set; } = false;
 
         private SwordManager _swordManager;
         private BowManager _bowManager;
-
+        private bool _inMenu = false;
         private PlayerState _state = PlayerState.Default;
         private CharacterState _previousState = CharacterState.Default;
 
@@ -148,6 +146,8 @@ namespace Managers
             }
         }
 
+        private Vector3 _jumpRollDirection = Vector3.zero;
+
         private void Jumping(float deltaTime)
         {
             bool onGrounded = movement.OnGrounded;
@@ -156,6 +156,19 @@ namespace Managers
                 movement.SetMovementSpeed(0f);
                 movement.SetMovementAxis(0f, 0f);
                 animator.ApplyRootMotionValues(0.25f);
+                // ReSharper disable once RedundantCheckBeforeAssignment
+                if (_jumpRollDirection != Vector3.zero)
+                    _jumpRollDirection = Vector3.zero;
+            }
+
+            if (!onGrounded && _state == PlayerState.Jump) {
+                if (InputHandler.Roll && _jumpRollDirection == Vector3.zero) {
+                    _jumpRollDirection = transform.forward * _jumpRollForward;
+                }
+                if (_jumpRollDirection != Vector3.zero) {
+                    _jumpRollDirection = Vector3.Lerp(_jumpRollDirection, Vector3.zero, deltaTime);
+                    movement.MoveCharacter(_jumpRollDirection * deltaTime);
+                }
             }
 
             animator.SetGrounded(onGrounded);

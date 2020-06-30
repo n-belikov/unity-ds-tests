@@ -6,41 +6,50 @@ using Inputs;
 using Inventory.Item.Data.Abstracts;
 using Locomotion;
 using Managers.Abstracts;
+using Managers.Containers.Abstracts;
 using Stats.Abstracts;
 using UnityEngine;
 using UnityEngine.Events;
 
 namespace Managers
 {
+    [RequireComponent(
+        typeof(PlayerManager), 
+        typeof(CharacterAnimator),
+        typeof(CharacterMovement)
+        )]
     public class SwordManager : MonoBehaviour, ISwordManagerInterface
     {
+        public enum SwordState
+        {
+            Default, Attack, Heavy
+        }
+        
         [SerializeField] private float attackMultiplier = 1f,
             heavyAttackMultiplier = 1f,
             delayToNextAttack = 0.15f,
             delayReady = 5f;
 
-        public string[] attackList = new string[] { };
+        [SerializeField]
+        private string[] attackList = new string[] { };
         
         public UnityEvent OnStartSlashEvent => _onStartSlashEvent;
         public UnityEvent OnEndSlashEvent => _onEndSlashEvent;
 
-        public bool IsAttack => _isAttack;
+        public bool IsAttack => _state != SwordState.Default;
 
         [SerializeField] private CharacterMovement movement;
         [SerializeField] private CharacterAnimator animator;
         [SerializeField] private PlayerManager playerManager;
 
         [Dependency] private IInputHandler InputHandler { get; set; }
+        [Dependency] private IEffectContainer EffectContainer { get; set; }
 
         private bool _canAttack = true;
-
-        private bool _isAttack = false;
-        private bool _isHeavy = false;
-        private bool _availableNextAnimation = false;
-
-        private int _currentAttackListIndex = 0;
-
-        private float _delayToNextAttackTimer = 0, _delayReadyTimer = 0;
+        private SwordState _state = SwordState.Default;
+        private bool _availableNextAnimation;
+        private int _currentAttackListIndex;
+        private float _delayToNextAttackTimer, _delayReadyTimer;
 
         [SerializeField, HideInInspector] private UnityEvent _onStartSlashEvent, _onEndSlashEvent;
 
@@ -71,18 +80,18 @@ namespace Managers
 
         public void Tick(float deltaTime)
         {
-            if (_isAttack) {
+            if (IsAttack) {
                 movement.SetMovementSpeed(0f);
                 movement.SetMovementAxis(0f, 0f);
 
-                animator.ApplyRootMotionValues(_isHeavy ? heavyAttackMultiplier : attackMultiplier);
+                animator.ApplyRootMotionValues(_state == SwordState.Heavy ? heavyAttackMultiplier : attackMultiplier);
             }
 
             if (!_canAttack && animator.GetState() == CharacterState.Sword) {
                 animator.SetState(CharacterState.Default);
             }
 
-            if (!_isAttack) {
+            if (!IsAttack) {
                 if (_delayToNextAttackTimer > 0) {
                     _delayToNextAttackTimer -= Time.deltaTime;
                     if (_delayToNextAttackTimer <= 0) {
@@ -103,23 +112,47 @@ namespace Managers
             }
 
             if (InputHandler.Attack && !InputHandler.Aiming && !playerManager.IsJumping && _canAttack) {
-                if (!_isAttack && InputHandler.Sprint) {
+                if (!IsAttack && InputHandler.Sprint) {
                     StartAttack(true);
                 }
                 else {
-                    if (!_isAttack || _availableNextAnimation) {
+                    if (!IsAttack || _availableNextAnimation) {
                         StartAttack(false);
                     }
                 }
             }
         }
 
+        public void InvokeDamage(GameObject gameObject, Vector3 hitPoint)
+        {
+            var damagable = gameObject.GetComponent<IDamagable>();
+            if (!ReferenceEquals(damagable, playerManager)) {
+                var damage = playerManager.Stats.GetDamage(WeaponType.Sword);
+
+                var effect = EffectContainer.GetRandomByType(EffectType.Hit);
+                EffectContainer.Create(effect, hitPoint);
+                
+                damagable.TakeDamage(damage, playerManager);
+            }
+        }
+
+        public void InvokeDamage(GameObject gameObject, Transform hitTransform)
+        {
+            InvokeDamage(gameObject, hitTransform.position);
+        }
+
+        public void StopAttack()
+        {
+            _state = SwordState.Default;
+        }
+
         private void StartAttack(bool isHeavy)
         {
             playerManager.StopAnother();
             _availableNextAnimation = false;
-            _isAttack = true;
-            _isHeavy = isHeavy;
+
+            _state = isHeavy ? SwordState.Heavy : SwordState.Attack;
+            
             animator.FireAnimation(isHeavy ? "Attack_Heavy" : GetCurrentAnimation(), true);
 
             animator.SetState(CharacterState.Sword);
@@ -127,21 +160,11 @@ namespace Managers
 
         private void SetMovementAxis(float deltaTime)
         {
-            float speed = InputHandler.Speed;
+            var speed = InputHandler.Speed;
             speed *= InputHandler.Sprint ? 1f : 0.5f;
             animator.SetMovementAxis(
                 0,
                 speed);
-        }
-
-        public void InvokeDamage(GameObject gameObject)
-        {
-            var damagable = gameObject.GetComponent<IDamagable>();
-            if (damagable != null) {
-                var damage = playerManager.Stats.GetDamage(WeaponType.Sword);
-                
-                damagable.TakeDamage(damage, playerManager);
-            }
         }
 
         private void StartSlashEvent()
@@ -152,8 +175,7 @@ namespace Managers
         private void EndSlashEvent()
         {
             NextAttackAnimation();
-            _isAttack = false;
-            _isHeavy = false;
+            StopAttack();
             animator.SetState(CharacterState.Sword);
             _delayReadyTimer = delayReady;
             _delayToNextAttackTimer = delayToNextAttack;
@@ -164,12 +186,6 @@ namespace Managers
         private string GetCurrentAnimation()
         {
             return attackList[_currentAttackListIndex];
-        }
-
-        public void StopAttack()
-        {
-            _isAttack = false;
-            _isHeavy = false;
         }
 
         private void NextAttackAnimation()
